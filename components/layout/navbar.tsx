@@ -34,6 +34,8 @@ export function NavBar({ items, children, rightElements, scroll = false }: NavBa
 
               <Link
                 href={siteConfig.links.meetup}
+                target="_blank"
+                rel="noreferrer"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" })
                 )}

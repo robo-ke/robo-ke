@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   ogImage: `${site_url}/og.png`,
   links: {
     twitter: "https://twitter.com/roboke",
-    github: "https://github.com/robo-ke/robo-ke",
+    github: "https://github.com/robo-ke",
     meetup: "https://www.meetup.com/roboke/",
   },
   mailSupport: "info@robo.ke",
