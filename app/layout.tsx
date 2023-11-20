@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 
 import { fontHeading, fontSans, fontUrban } from "@/assets/fonts";
+import { Analytics } from "@/components/analytics";
 import { Providers } from "@/components/providers";
 import { Toaster } from "@/components/ui/toaster";
 import { siteConfig } from "@/config/site";
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       >
         <Providers attribute="class" defaultTheme="system" enableSystem>
           {children}
+          <Analytics />
           <Toaster />
         </Providers>
       </body>

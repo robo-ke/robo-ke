@@ -1,4 +1,3 @@
-import { User } from "@prisma/client"
 import type { Icon } from "lucide-react"
 
 import { Icons } from "@/components/shared/icons"
@@ -36,6 +35,7 @@ export type SiteConfig = {
   links: {
     twitter: string
     github: string
+    meetup: string
   }
 }
 
