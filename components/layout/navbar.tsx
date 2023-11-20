@@ -6,6 +6,7 @@ import { MainNav } from "./main-nav";
 import { Button, buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { siteConfig } from "@/config/site"
 
 
 interface NavBarProps {
@@ -32,7 +33,7 @@ export function NavBar({ items, children, rightElements, scroll = false }: NavBa
             {rightElements}
 
               <Link
-                href="/login"
+                href={siteConfig.links.meetup}
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" })
                 )}

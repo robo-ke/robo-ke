@@ -12,6 +12,7 @@ export const siteConfig: SiteConfig = {
   links: {
     twitter: "https://twitter.com/roboke",
     github: "https://github.com/robo-ke/robo-ke",
+    meetup: "https://www.meetup.com/roboke/",
   },
-  mailSupport: "info@robo.ke"
+  mailSupport: "info@robo.ke",
 }
