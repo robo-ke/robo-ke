@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
   url: site_url,
   ogImage: `${site_url}/og.png`,
   links: {
-    twitter: "https://twitter.com/roboke",
+    twitter: "https://twitter.com/roboconKE",
     github: "https://github.com/robo-ke",
     meetup: "https://www.meetup.com/roboke/",
   },
