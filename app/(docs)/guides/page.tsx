@@ -16,7 +16,7 @@ export default function GuidesPage() {
     <div className="py-6 lg:py-10">
       <DocsPageHeader
         heading="Guides"
-        text="This section includes random guides about roboKE community."
+        text="This section includes random guides about RoboKE community."
       />
       {guides?.length ? (
         <div className="grid gap-4 md:grid-cols-2 md:gap-6">

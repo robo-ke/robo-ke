@@ -19,16 +19,16 @@ export const metadata = {
   description: siteConfig.description,
   keywords: [
     "Robotics",
-    "roboKE",
+    "RoboKE",
     "Robotics Kenya",
     "robocon"
   ],
   authors: [
     {
-      name: "roboke",
+      name: "RoboKE",
     },
   ],
-  creator: "roboke",
+  creator: "RoboKE",
   metadataBase: new URL(siteConfig.url),
   openGraph: {
     type: "website",

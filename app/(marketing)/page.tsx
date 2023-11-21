@@ -27,7 +27,7 @@ export default async function IndexPage() {
             <Balancer>
               we are{" "}
               <span className="relative bg-gradient-to-r from-indigo-500 to-purple-500/80 bg-clip-text font-extrabold text-transparent">
-                roboKE
+              RoboKE
               </span>
             </Balancer>
           </h1>
@@ -37,7 +37,7 @@ export default async function IndexPage() {
             style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}
           >
             <Balancer>
-            roboKE is a community of enthusiasts from Nairobi, Kenya who are interested in robotics and want to learn more about it. We believe that robotics is an exciting field with many opportunities for innovation and creativity.
+            RoboKE is a community of enthusiasts from Nairobi, Kenya who are interested in robotics and want to learn more about it. We believe that robotics is an exciting field with many opportunities for innovation and creativity.
             </Balancer>
           </p>
 
