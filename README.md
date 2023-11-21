@@ -1,6 +1,6 @@
 <a href="https://robo.ke">
-  <img alt="roboKE" src="public/og.png">
-  <h1 align="center">roboKE website</h1>
+  <img alt="RoboKE" src="public/og.png">
+  <h1 align="center">RoboKE website</h1>
 </a>
 
 ## Installation

@@ -53,7 +53,7 @@ export async function GET(req: Request) {
               color: 'transparent'
             }}
           >
-            roboKE
+            RoboKE
           </div>
 
           <div tw="flex flex-col flex-1 py-16">
