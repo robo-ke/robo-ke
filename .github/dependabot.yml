@@ -3,9 +3,27 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+      day: "sunday"
+      time: "12:00"
+      timezone: "Africa/Nairobi"
+    assignees:
+      - "rodneyosodo"
+    groups:
+      dev-dependency:
+        patterns:
+          - "*"
 
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+      day: "sunday"
+      time: "12:00"
+      timezone: "Africa/Nairobi"
+    assignees:
+      - "rodneyosodo"
+    groups:
+      dev-dependency:
+        patterns:
+          - "*"
