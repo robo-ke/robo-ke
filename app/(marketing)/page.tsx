@@ -17,7 +17,7 @@ export default async function IndexPage() {
             style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
             target="_blank"
           >
-            Introducing on <Icons.twitter className="ml-2 h-4 w-4" />
+            Rodney on <Icons.twitter className="ml-2 h-4 w-4" />
           </Link>
 
           <h1
